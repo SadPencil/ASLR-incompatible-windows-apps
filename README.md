@@ -30,6 +30,8 @@ Shells and all programs that depend on `fork()`:
 
 See also:
 - https://github.com/desktop/desktop/issues/9089
+- https://sourceware.org/legacy-ml/cygwin/2013-06/msg00096.html
+- https://stackoverflow.com/a/48504743
 
 ### TeX
 The launcher for running `latexindent.pl`.
