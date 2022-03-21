@@ -14,11 +14,17 @@ All the launcher exes are incompatible:
 
 **Workaround:** use the `.bat` file as the launcher, e.g. use `idea.bat` in favor of `idea64.exe`
 
+See also:
+- https://youtrack.jetbrains.com/issue/IDEABKL-7997
+
 ### Git, Cygwin, and MSYS2
 Shells and all programs that depends on `fork()`:
 - `sh.exe`
 - `bash.exe`
 - and so on.
+
+See also:
+- https://github.com/desktop/desktop/issues/9089
 
 ### TeX
 The launcher for running `latexindent.pl`.
@@ -32,4 +38,5 @@ According to https://github.com/multitheftauto/mtasa-blue/issues/435, this bug w
 
 ### Game: Red Alert 2 mods (Ares-based)
 - `gamemd.exe`
+
 Ares injects the game exe file to provide extended gaming features, but the injection fails when ASLR turns on.
