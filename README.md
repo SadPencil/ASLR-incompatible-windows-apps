@@ -1,12 +1,12 @@
 # ASLR-incompatible-windows-apps
-A collection of known apps that has conflicts with the mandatory ASLR feature.
+A collection of known apps that have conflicts with the mandatory ASLR feature.
 
 Make a pull request if you find another incompatible app.
 
 ## Why should I care
-Mandatory ASLR improves the system security. Though it has not become the default option for fresh Windows 10 / 11 installations, your new machine might have this feature turned on by OEMs.
+Mandatory ASLR improves system security. Though it has not become the default option for fresh Windows 10 / 11 installations, your new machine might have this feature turned on by OEMs.
 
-But not all apps are ready for this. Incompatible apps crashes with an unfriendly error message. Instead of completely turnning off this feature, you may also choose to set up bypass rules according to the filename if you are a super fan of security.
+But not all apps are ready for this. Incompatible apps crash with an unfriendly error message. Instead of completely turning off this feature, you may also choose to set up bypass rules according to the filename if you are a super fan of security.
 
 ## Incompatible Apps
 
@@ -23,7 +23,7 @@ See also:
 - https://youtrack.jetbrains.com/issue/IDEABKL-7997
 
 ### Git, Cygwin, and MSYS2
-Shells and all programs that depends on `fork()`:
+Shells and all programs that depend on `fork()`:
 - `sh.exe`
 - `bash.exe`
 - and so on.
@@ -36,7 +36,7 @@ The launcher for running `latexindent.pl`.
 - `latexindent.exe`
 
 ### NSIS installers (old versions)
-App installers that is packed up by old-version NSIS.
+App installers that are packed up by old-version NSIS.
 Example: [TeXstudio v4.2.2](https://github.com/texstudio-org/texstudio/releases/tag/4.2.2)
 
 According to https://github.com/multitheftauto/mtasa-blue/issues/435, this bug was fixed in version 3.03 of NSIS.
@@ -44,4 +44,4 @@ According to https://github.com/multitheftauto/mtasa-blue/issues/435, this bug w
 ### Game: Red Alert 2 mods (Ares-based)
 - `gamemd.exe`
 
-Ares injects the game exe file to provide extended gaming features, but the injection fails when ASLR turns on.
+Ares injects the game executable file to provide extended gaming features, but the injection fails when ASLR turns on.
