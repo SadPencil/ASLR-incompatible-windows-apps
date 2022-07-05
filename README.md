@@ -6,7 +6,7 @@ Make a pull request if you find another incompatible app.
 ## Why should I care
 Mandatory ASLR improves system security. Though it has not become the default option for fresh Windows 10 / 11 installations, your new machine might have this feature turned on by OEMs.
 
-But not all apps are ready for this. Incompatible apps crash with an unfriendly error message. Instead of completely turning off this feature, you may also choose to set up bypass rules according to the filename if you are a super fan of security.
+But not all apps are ready for this. Incompatible apps crash with an unfriendly error message, like `The application was unable to start correctly (0xc0000005)`. Instead of completely turning off this feature, you may also choose to set up bypass rules according to the filename if you are a super fan of security.
 
 ## Incompatible Apps
 
